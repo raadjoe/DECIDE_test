@@ -1,0 +1,45 @@
+<http://www.decideOutput/namedGraph/Graph/485411754>
+        <http://www.decideOutput/moreSpecificThan>
+                <http://www.decideOutput/namedGraph/Graph/0> .
+				
+<http://www.decideOutput/namedGraph/Graph/282132471>
+        <http://www.decideOutput/moreSpecificThan>
+                <http://www.decideOutput/namedGraph/Graph/0> .
+
+<http://www.decideOutput/namedGraph/Graph/485411754> {
+    <http://www.ria.fr/figure2#aStructure>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure2#Medicament> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure2#fabrique>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure2#Entreprise> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure2#Medicament> .
+    
+    
+    <http://www.ria.fr/figure2#med1>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure2#med2> .
+}
+
+<http://www.decideOutput/namedGraph/Graph/282132471> {
+
+    <http://www.ria.fr/figure2#vend>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure2#Entreprise> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure2#Medicament> .
+    
+    <http://www.ria.fr/figure2#med1>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure2#med3> .
+}
+
+<http://www.decideOutput/namedGraph/Graph/0> {
+    <http://www.ria.fr/figure2#med2>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure2#med3> .
+}

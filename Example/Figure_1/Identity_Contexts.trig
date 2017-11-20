@@ -1,0 +1,179 @@
+<http://www.decideOutput/namedGraph/Graph/504028786>
+        <http://www.decideOutput/moreSpecificThan>
+                <http://www.decideOutput/namedGraph/Graph/-550586954> .
+
+<http://www.decideOutput/namedGraph/Graph/421688316>
+        <http://www.decideOutput/moreSpecificThan>
+                <http://www.decideOutput/namedGraph/Graph/-550586954> .
+
+<http://www.decideOutput/namedGraph/Graph/1476304056>
+        <http://www.decideOutput/moreSpecificThan>
+                <http://www.decideOutput/namedGraph/Graph/502413564> , <http://www.decideOutput/namedGraph/Graph/504028786> , <http://www.decideOutput/namedGraph/Graph/421688316> , <http://www.decideOutput/namedGraph/Graph/-550586954> .
+
+<http://www.decideOutput/namedGraph/Graph/502413564> {
+    <http://www.ria.fr/figure1#aValeur>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aVolume>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Fermenteur> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Volume> .
+    
+    <http://www.ria.fr/figure1#aNom>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aMateriel>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Fermenteur> , <http://www.ria.fr/figure1#Fiole> .
+    
+    <http://www.ria.fr/figure1#aUnite>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#pr1>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure1#pr2> .
+}
+
+<http://www.decideOutput/namedGraph/Graph/504028786> {
+    <http://www.ria.fr/figure1#aVolume>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Fermenteur> , <http://www.ria.fr/figure1#Fiole> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Volume> .
+    
+    <http://www.ria.fr/figure1#aNom>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aMateriel>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Fermenteur> , <http://www.ria.fr/figure1#Fiole> .
+    
+    <http://www.ria.fr/figure1#aUnite>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#pr1>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure1#pr2> .
+}
+
+<http://www.decideOutput/namedGraph/Graph/421688316> {
+    <http://www.ria.fr/figure1#aValeur>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aVolume>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Fiole> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Volume> .
+    
+    <http://www.ria.fr/figure1#aNom>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aMateriel>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Fiole> .
+    
+    <http://www.ria.fr/figure1#aUnite>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#pr1>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure1#pr3> , <http://www.ria.fr/figure1#pr4> .
+}
+
+<http://www.decideOutput/namedGraph/Graph/-550586954> {
+    <http://www.ria.fr/figure1#aVolume>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Fiole> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Volume> .
+    
+    <http://www.ria.fr/figure1#aNom>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aMateriel>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Fiole> .
+    
+    <http://www.ria.fr/figure1#aUnite>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#pr2>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure1#pr3> , <http://www.ria.fr/figure1#pr4> .
+}
+
+<http://www.decideOutput/namedGraph/Graph/1476304056> {
+    <http://www.ria.fr/figure1#aValeur>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aVolume>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Fermenteur> , <http://www.ria.fr/figure1#Fiole> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Volume> .
+    
+    <http://www.ria.fr/figure1#aNom>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#aMateriel>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Processus> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.ria.fr/figure1#Fermenteur> , <http://www.ria.fr/figure1#Fiole> .
+    
+    <http://www.ria.fr/figure1#aUnite>
+            <http://www.w3.org/2000/01/rdf-schema#domain>
+                    <http://www.ria.fr/figure1#Volume> ;
+            <http://www.w3.org/2000/01/rdf-schema#range>
+                    <http://www.w3.org/2000/01/rdf-schema#Literal> .
+    
+    <http://www.ria.fr/figure1#pr3>
+            <http://www.decideOutput/identiConTo>
+                    <http://www.ria.fr/figure1#pr4> .
+}

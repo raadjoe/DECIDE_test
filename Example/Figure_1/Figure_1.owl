@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.ria.fr/figure1#"
+     xml:base="http://www.ria.fr/figure1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:figure1="http://www.ria.fr/figure1#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.ria.fr/figure1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ria.fr/figure1#aMateriel -->
+
+    <owl:ObjectProperty rdf:about="http://www.ria.fr/figure1#aMateriel"/>
+    
+
+
+    <!-- http://www.ria.fr/figure1#aVolume -->
+
+    <owl:ObjectProperty rdf:about="http://www.ria.fr/figure1#aVolume"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ria.fr/figure1#aNom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ria.fr/figure1#aNom"/>
+    
+
+
+    <!-- http://www.ria.fr/figure1#aUnite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ria.fr/figure1#aUnite"/>
+    
+
+
+    <!-- http://www.ria.fr/figure1#aValeur -->
+
+    <owl:DatatypeProperty rdf:about="http://www.ria.fr/figure1#aValeur"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ria.fr/figure1#Fermenteur -->
+
+    <owl:Class rdf:about="http://www.ria.fr/figure1#Fermenteur">
+        <rdfs:subClassOf rdf:resource="http://www.ria.fr/figure1#Materiel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ria.fr/figure1#Fiole -->
+
+    <owl:Class rdf:about="http://www.ria.fr/figure1#Fiole">
+        <rdfs:subClassOf rdf:resource="http://www.ria.fr/figure1#Materiel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ria.fr/figure1#Materiel -->
+
+    <owl:Class rdf:about="http://www.ria.fr/figure1#Materiel"/>
+    
+
+
+    <!-- http://www.ria.fr/figure1#Processus -->
+
+    <owl:Class rdf:about="http://www.ria.fr/figure1#Processus"/>
+    
+
+
+    <!-- http://www.ria.fr/figure1#Volume -->
+
+    <owl:Class rdf:about="http://www.ria.fr/figure1#Volume"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ria.fr/figure1#fio1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#fio1">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fiole"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#fio2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#fio2">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fiole"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#fio3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#fio3">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fiole"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#fio4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#fio4">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fiole"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v10"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#frm1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#frm1">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fermenteur"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#frm2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#frm2">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fermenteur"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#frm3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#frm3">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fermenteur"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#frm4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#frm4">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fermenteur"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#frm5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#frm5">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fermenteur"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#frm6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#frm6">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Fermenteur"/>
+        <aVolume rdf:resource="http://www.ria.fr/figure1#v9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#pr1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#pr1">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Processus"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#fio1"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#frm1"/>
+        <aNom>Fermentation</aNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#pr2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#pr2">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Processus"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#fio2"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#frm2"/>
+        <aNom>Fermentation</aNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#pr3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#pr3">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Processus"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#fio3"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#frm3"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#frm4"/>
+        <aNom>Fermentation</aNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#pr4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#pr4">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Processus"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#fio4"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#frm5"/>
+        <aMateriel rdf:resource="http://www.ria.fr/figure1#frm6"/>
+        <aNom>Fermentation</aNom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v1">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>L</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v10">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>mL</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v2">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>mL</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v3">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>L</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v4">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>mL</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v5">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>L</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v6">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>L</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v7">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>mL</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v8">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>L</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</aValeur>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.ria.fr/figure1#v9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.ria.fr/figure1#v9">
+        <rdf:type rdf:resource="http://www.ria.fr/figure1#Volume"/>
+        <aUnite>L</aUnite>
+        <aValeur rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</aValeur>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
